@@ -32,7 +32,7 @@ def signUp(emailOfUser,passwordOfUser):
 uid = ""
 message =""
 try:
-  user = auth.create_user(email=email.OfUser,
+  user = auth.create_user(email=emailOfUser,
                           email_varified=False,
                           password=passwordOfUser)
                          
